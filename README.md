@@ -2,7 +2,7 @@
 
 A modifed Roblox client for infinite condos with an unlimited runtime and no security risks. Use responsibly — this project is not affiliated with or endorsed by Roblox Corporation.
 
-> NOTE: Using this client with anactie RobloxPlayerBeta.exe, logged into a recent version of Roblox could cause an enforcement ban. Please use the client at your own risk.
+> NOTE: Using this client with an active RobloxPlayerBeta.exe in your system that is logged into a roblox account could cause an enforcement ban. This is because the client used for Roblox is modified to fit with Fern's servers. Please use the client at your own risk.
 
 ---
 
@@ -70,7 +70,9 @@ Exact dependencies vary depending on whether you are running a prebuilt binary o
 5. Right click Ferns_Installer.exe, click Open With > Other Application, and then enter the custom command `wine` or `wine start` This should open the installer. Go through the installation process, then refer to Step 6 and 7 to run the Client.
 
 6. Go back to your Home directory and view hidden files, (Control + H) Then make your way to the .wine directory. Then, follow the next directories in order.
+
 `*/.wine/drive_c/users/user/AppData/Local/Ferns/Client`
+ 
  `(drive_c > users> usr (Your username) > AppData > Local > Ferns > Client)`
 
 7. Locate Ferns.exe in the Client directory, right click it, and run with the custom `wine`/`wine start` you created beforehand. The website should open, and you can then join a server by going to the ferns site, Clicking Games, then Public Games, and joining an active server.
@@ -82,10 +84,15 @@ Exact dependencies vary depending on whether you are running a prebuilt binary o
 1. Locate the Ferns_Installer.exe and delete it from your system.
 
 2. Go to your Home directory, locate the .wine, and follow the directory list below.
-`*/.wine/drive_c/users/user/AppData/Local/F`
+
+`*/.wine/drive_c/users/user/AppData/Local/`
+ 
  `(drive_c > users> usr (Your username) > AppData > Local)`
 
 3. Delete the "Ferns" Directory. All of its files and data will follow.
+4. Check the .var directory for any lingering data you do not want from the client.
+
+   To have your data removed from the Ferns DB, please make a ticket in the Discord server. (Contact Tab, line 122)
 
 ## Contributing
 
