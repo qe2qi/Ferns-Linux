@@ -21,12 +21,12 @@ Table of Contents
 
 ## About
 
-Fern's is a modified Roblox client focused on safe, unbannable condos that run 24/7, using seperate servers than roblox. THe best alternative if you want always active roblox condos. This repository is for users who want to run the windows client on Linux desktops and development containers.
+Fern's is a modified Roblox client focused on safe, unbannable condos that run 24/7, using seperate servers than roblox. The best alternative if you want always active roblox condos. This repository is for users who want to run the windows client on Linux desktops and development containers.
 
 This repository contains:
-- Source code and build scripts (where applicable)
-- Linux-compatible binaries (when provided in Releases)
-- Configuration templates and documentation
+- Where to download ferns and how to use it
+- Answers to any safety concerns when it comes to ferns and data collection
+- Supported plaforms that will run the ferns client (W.I.P)
 
 ---
 
@@ -83,11 +83,11 @@ Exact dependencies vary depending on whether you are running a prebuilt binary o
 
 1. Locate the Ferns_Installer.exe and delete it from your system.
 
-2. Go to your Home directory, locate the .wine, and follow the directory list below.
+2. Go to your Home directory, locate the .wine directory, then follow the list below.
 
 `*/.wine/drive_c/users/user/AppData/Local/`
  
- `(drive_c > users> usr (Your username) > AppData > Local)`
+ `(.wine > drive_c > users> usr (Your username) > AppData > Local)`
 
 3. Delete the "Ferns" Directory. All of its files and data will follow.
 4. Check the .var directory for any lingering data you do not want from the client.
